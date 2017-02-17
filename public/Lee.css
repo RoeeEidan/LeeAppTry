@@ -1,0 +1,249 @@
+html{
+  height: 100%;
+}
+
+.texterea {
+  float: left;
+  background-color: white;
+  height: 95%;
+  width: 30%;
+  margin: 2% 0 0 2%;
+  padding: 3%;
+  text-align: center;
+  font-size: 250%; }
+  .texterea p {
+    background-color: white;
+    margin-bottom: 0px;
+    font-size: smaller; }
+
+.buttondiv {
+  padding: 5% 5% 0 0;
+  height: 180px; }
+
+.food {
+  margin: 1.5% 0 0 4%;
+  height: 10%;
+  width: 12%; }
+
+.keyboreddiv {
+  background-color: wheat;
+  width: 100%;
+  height: 50%;
+  height: 500px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: wheat; }
+  * li.symbol {
+    background-color: white; }
+  * span.off {
+    background-color: white; }
+
+body {
+  font: 71%/1.5 Verdana, Sans-Serif;
+  background: wheat; 
+  height: 100%;
+  }
+
+.container {
+  float: left;
+  position: absolute;
+  bottom: -11%;
+  right: -2%;
+  max-width: 69%;
+  height: 44%;
+  font-size: x-large;
+  padding-right: 2%; }
+  .container li {
+    height: 100%; }
+
+#write {
+  margin: 0 0 5px;
+  padding: 5px;
+  width: 671px;
+  height: 200px;
+  font: 1em/1.5 Verdana, Sans-Serif;
+  background: #fff;
+  border: 1px solid #f9f9f9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; }
+
+.keyboard {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.keyboard li {
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 9%;
+  height: 17%;
+  line-height: 40px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #f9f9f9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; }
+
+.keyboreddiv#keybored li.letterface {
+  width: 50px;
+  height: 50px; }
+
+.lastitem {
+  margin-right: 0; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.keyboard .space {
+  margin-left: 7%;
+  clear: left;
+  width: 82%; }
+
+.keyboard li:hover {
+  position: relative;
+  top: 1px;
+  left: 1px;
+  border-color: #e5e5e5;
+  cursor: pointer; }
+
+.btn#sendbutton {
+  position: absolute;
+  bottom: 4%;
+  left: 17.5%;
+  background-color: rgb(238, 196,0);
+  height: 60px;
+  width: 180px; }
+
+.btn#sendbutton:hover {
+  border: 2px solid gray;
+  background-color: rgb(238, 196,80); }
+
+h1 {
+  background-color: white; }
+
+p {
+  size: inherit;
+  margin-bottom: 7px; }
+
+.keyboreddiv#container ul#keyboard.keyboredline {
+  display: block; }
+
+.tablenumber {
+  background-color: white;
+  font-size: medium;
+  position: relative;
+  bottom: 9%; 
+  }
+
+.tableinput {
+  background-color: ghostwhite;
+  width: 150px;
+  height: 25px;
+  float: right;
+  border: 2px solid lightblue; }
+
+.tableinput:hover {
+  background-color: lightblue;
+  border: 2px solid blue; }
+
+.orderlist {
+  list-style: none;
+  height: 60%;
+  background-color: white;
+   }
+  .orderlist li {
+    background-color: white; }
+    .orderlist li p {
+      font-size: 90%;
+      margin: 0;
+      }
+.orderlist li p .special2{
+  color:green;
+}
+
+.orderlist li p .allergy2{
+  color:red;
+} 
+
+      
+
+body {
+  background-color: wheat; }
+
+font {
+  color: black;
+  font-size: 90%;
+  background-color: white; }
+
+.new-line {
+  font-size: 53%; }
+
+.undo {
+  font-size: 60%; }
+
+.back {
+  font-size: 60%; }
+
+.BigRightBox {
+  height: 100%;
+  background-color: gray;
+  float: right; }
+
+.BigLeftBox {
+  height: 50%;
+  background-color: wheat;
+  float: left; }
+
+  .SendButton{
+    margin-left: 9%;
+  }
+
+  .row{
+    height: 100%;
+  }
+span{
+  background-color: white;
+}
+.allergy2{
+  background-color: red;
+}
+.allergy2:hover{
+  background-color: rgb(215,10,72);
+}
+.special2{
+  background-color: green;
+}
+.special2:hover{
+  background-color: rgb(0, 238, 97);
+}
+.sametime2{
+  background-color: blue;
+}
+.sametime2:hover{
+  background-color: rgb(0, 127, 238);
+}
+.time{
+  background-color:mediumpurple;
+}
+.time:hover{
+  background-color: rgb(209, 21, 238);
+}
+.redd{
+  color: red;
+  background-color: white;
+}
+.greenn{
+  color: green;
+  background-color: white;
+}
+.bluee{
+  color: blue;
+  background-color: white;
+}
+.purplee{
+  color: mediumpurple;
+  background-color: white;
+}
+/*# sourceMappingURL=Lee.css.map */
